@@ -1,0 +1,1 @@
+package offer3;public class TestFive {    public RandomListNode Clone(RandomListNode pHead) {        RandomListNode node = new RandomListNode(pHead.label);        return null;    }}class RandomListNode {    int label;    RandomListNode next = null;    RandomListNode random = null;    RandomListNode(int label) {        this.label = label;    }}

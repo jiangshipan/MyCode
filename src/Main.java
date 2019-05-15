@@ -1,0 +1,1 @@
+import DataStructure.LRU;public class Main {    public static void main(String[] args) {        LRU<String, String> cache = new LRU<>(100);        for (int i = 0; i < 101; i++) {            cache.put("ca" + i,"testxxx" + i);        }        System.out.println(cache.get("ca0"));    }}
